@@ -1,0 +1,11 @@
+#Get the total meal amount and calculate the tip and tax.
+#Add the tip and tax to the total meal for a total amount.
+
+Food_amount = float(input("Enter the total amount for the food "))
+tip = Food_amount * .18
+print('The tip is $', format(tip, ',.2f'))
+tax = Food_amount * 0.07
+print('The total tax is $', format(tax, '.2f'))
+total_bill = tip + tax
+print('The total bill is $', format(tax + tip, '.2f'))
+
